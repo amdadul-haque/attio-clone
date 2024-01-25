@@ -1,10 +1,21 @@
 <template>
   <div class="bg-white-bg">
-    <Hero />
-    <Review />
-    <Feature1 />
-    <Feature2 />
-    <Feature3 />
+    <Navbar />
+    <main>
+      <Hero />
+      <Video />
+      <Review />
+      <Success />
+      <Feature1 />
+      <Feature2 />
+      <Feature3 />
+      <ThatsNotAll />
+      <Automations />
+      <Hookdeck />
+      
+    </main>
+    <CRM />
+    <Footer />
   </div>
 </template>
 
