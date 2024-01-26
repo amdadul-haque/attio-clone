@@ -3,10 +3,10 @@
     <div
       class="w-full max-w-[1280px] mx-auto flex flex-col items-center gap-8 xl:gap-20 md:flex-row-reverse md:justify-between"
     >
-      <div class="max-w-[500px] sm:max-w-[600px]">
+      <div class="">
         <img src="~assets/images/feature-1.png" alt="Attio Logo" class="w-full" />
       </div>
-      <div class="max-w-[500px] sm:max-w-full">
+      <div class=" sm:max-w-full">
         <h1
           class="text-text-dark text-[24px] md:text-[36px] font-bold text-center md:text-left"
         >

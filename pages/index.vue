@@ -1,18 +1,17 @@
 <template>
   <div class="bg-white-bg">
     <Navbar />
-    <main>
+    <main class="max-w-screen-xl mx-auto px-4">
       <Hero />
       <Video />
       <Review />
-      <Success />
+      <!-- <Success /> -->
       <Feature1 />
       <Feature2 />
       <Feature3 />
       <ThatsNotAll />
       <Automations />
       <Hookdeck />
-      
     </main>
     <CRM />
     <Footer />
