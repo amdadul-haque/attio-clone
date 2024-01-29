@@ -3,18 +3,18 @@
     class="py-20 md:min-h-screen w-full flex flex-col justify-center items-center"
   >
     <h1
-      class="text-black-main text-center font-bold text-[56px] md:text-[92px] leading-none"
+      class="text-black-main text-center font-bold text-[56px] md:text-[92px] leading-none hero-animation"
     >
       Customer <br />
       relationship magic.
     </h1>
     <p
-      class="text-text-main text-[16px] md:text-[22px] mt-5 text-center font-semibold max-w-[80%] md:max-w-screen-sm"
+      class="text-text-main text-[16px] md:text-[22px] mt-5 text-center font-semibold max-w-[80%] md:max-w-screen-sm subtitle-animation"
     >
       Powerful, flexible and data-driven, Attio makes it easy to build the exact
       CRM your business needs.
     </p>
-    <div class="mt-8 flex gap-3">
+    <div class="mt-8 flex gap-3 buttons-animation">
       <a href="#">
         <button
           class="bg-black-main hover:bg-black-text text-white-main text-[16px] font-semibold px-4 py-3 rounded-xl transition-all"

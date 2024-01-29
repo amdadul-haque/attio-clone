@@ -1,19 +1,19 @@
 <template>
   <div class="w-full px-4 py-20">
     <div
-      class="w-full max-w-[1280px] mx-auto flex flex-col items-center gap-8 xl:gap-20 md:flex-row-reverse md:justify-between"
+      class="w-full  mx-auto flex flex-col items-center gap-8 xl:gap-20 md:flex-row-reverse md:justify-between"
     >
-      <div class="">
+      <div class="w-full md:w-1/2">
         <img src="~assets/images/feature-1.png" alt="Attio Logo" class="w-full" />
       </div>
-      <div class=" sm:max-w-full">
+      <div class="w-full md:w-1/2">
         <h1
           class="text-text-dark text-[24px] md:text-[36px] font-bold text-center md:text-left"
         >
           Quick Access
         </h1>
         <p
-          class="text-text-main text-[16px] md:text-[18px] my-4 max-w-[600px] text-center md:text-left"
+          class="text-text-main text-[16px] md:text-[18px] my-4 text-center md:text-left"
         >
           Our overlay makes sharing a breeze. Instantly save, copy or drag & drop
           screenshots or screen recordings to other apps. Whatever your workflow looks

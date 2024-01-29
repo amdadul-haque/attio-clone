@@ -1,12 +1,12 @@
 <template>
-  <div class="w-full bg-[#266DF0] py-10 md:py-2">
+  <div class="w-full bg-[#266DF0] py-10 lg:py-2">
     <div
-      class="px-4 mx-auto max-w-[460px] md:max-w-screen-xl flex flex-col md:flex-row md:justify-between gap-10"
+      class="px-4 mx-auto max-w-[600px] smd:max-w-screen-xl flex flex-col smd:flex-row smd:justify-between gap-10"
     >
-      <div class="flex items-center">
-        <div class="">
+      <div class="w-full md:w-1/2 flex items-center">
+        <div class="py-10">
           <h2
-            class="text-[#8FB7FF] text-[30px] md:text-[48px] font-bold max-w-[460px] leading-[36px] md:leading-[50px]"
+            class="text-[#8FB7FF] text-[30px] md:text-[48px] font-bold leading-[36px] md:leading-[50px]"
           >
             Ready to build your <sapn class="text-white-main"> team's dream CRM?</sapn>
           </h2>
@@ -24,7 +24,7 @@
           </div>
         </div>
       </div>
-      <div>
+      <div class="w-full md:w-1/2">
         <img src="~assets/images/crm.svg" alt="CRM" class="w-full" />
       </div>
     </div>

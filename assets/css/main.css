@@ -10,3 +10,54 @@
 .video {
   background-image: url('../images/checkbox.svg');
 }
+
+.hero-animation {
+  animation: hero 0.7s ease-in-out;
+}
+
+@keyframes hero {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+.subtitle-animation {
+  animation: subtitle 1.4s ease-in-out;
+}
+
+.buttons-animation{
+  animation: subtitle 1.8s ease-in-out;
+}
+
+@keyframes subtitle {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  30% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+
+.mobile-menu-animation{
+  animation: mobile-menu 0.7s ease-in-out;
+}
+
+@keyframes mobile-menu {
+  0% {
+    height: 0;
+  }
+  100% {
+    height: 100%;
+  }
+}

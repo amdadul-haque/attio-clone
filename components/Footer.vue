@@ -1,7 +1,7 @@
 <template>
   <footer class="bg-[#1C1D1F] w-full">
     <div
-      class="w-full max-w-[500px] smd:max-w-screen-xl mx-auto px-4 flex flex-col gap-8 smd:flex-row py-10"
+      class="w-full max-w-[600px] smd:max-w-screen-xl mx-auto px-4 flex flex-col gap-8 smd:flex-row py-10"
     >
       <div class="smd:w-1/5 flex smd:flex-col justify-between">
         <a href="#">

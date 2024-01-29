@@ -1,12 +1,12 @@
 <template>
   <div class="w-full px-4 py-20">
     <div
-      class="w-full max-w-[1280px] mx-auto flex flex-col items-center gap-8 xl:gap-20 md:flex-row md:justify-between"
+      class="w-full  mx-auto flex flex-col items-center gap-8 xl:gap-20 md:flex-row md:justify-between"
     >
-      <div class="">
+      <div class="w-full md:w-1/2">
         <img src="~assets/images/feature-2.png" alt="Attio Logo" class="w-full" />
       </div>
-      <div class=" sm:max-w-full">
+      <div class="w-full md:w-1/2">
         <h1
           class="text-text-dark text-[24px] md:text-[36px] font-bold text-center md:text-left"
         >

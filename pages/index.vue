@@ -1,7 +1,7 @@
 <template>
   <div class="bg-white-bg">
     <Navbar />
-    <main class="max-w-screen-xl mx-auto px-4">
+    <main class="max-w-[600px] smd:max-w-screen-xl mx-auto px-4">
       <Hero />
       <Video />
       <Review />

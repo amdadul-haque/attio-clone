@@ -1,6 +1,6 @@
 <template>
   <div class="w-full py-20">
-    <div class="w-full flex gap-5 justify-between pb-24">
+    <div class="w-full flex flex-col md:flex-row gap-5 justify-between pb-10 md:pb-24">
       <h1
         class="text-text-dark text-[32px] md:text-[48px] font-semibold leading-tight max-w-[550px]"
       >

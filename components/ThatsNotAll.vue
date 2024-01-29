@@ -1,6 +1,6 @@
 <template>
   <div class="w-full py-20">
-    <div class="w-full max-w-[600px] smd:max-w-[600px] md:max-w-screen-xl mx-auto px-4">
+    <div class="w-full mx-auto px-4">
       <div>
         <h1 class="text-[32px] md:text-[48px] text-text-dark font-bold">
           And that's not all...
@@ -10,7 +10,7 @@
           entire team covered.
         </p>
       </div>
-      <div class="grid max-w-[400px] mx-auto smd:max-w-[600px] lg:max-w-full smd:grid-cols-2 lg:grid-cols-3 gap-x-10 gap-y-10 md:gap-y-20 mt-12 md:mt-24">
+      <div class="grid mx-auto smd:grid-cols-2 lg:grid-cols-3 gap-x-10 gap-y-10 md:gap-y-20 mt-12 md:mt-24">
         <div v-for="(item, index) in items">
         <h3 class="text-[#232529] text-base font-medium">
           <i :class="item.icon"></i>
