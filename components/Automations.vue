@@ -17,7 +17,8 @@
       <div v-for="card in cards" :key="card.id" class="flex gap-3 rounded-lg border p-5">
         <div>
           <div class="p-2 border rounded-md">
-            <img :src="`/_nuxt/${card.icon}`" :alt="card.title" class="w-12" />
+            <img src="~assets/images/icons/slack.svg" alt="slack" class="w-12" />
+            <!-- <img :src="`/_nuxt/${card.icon}`" :alt="card.title" class="w-12" /> -->
           </div>
         </div>
         <div>

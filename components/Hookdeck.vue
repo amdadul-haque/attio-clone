@@ -22,8 +22,8 @@
             <div>
               <div class="p-2 border rounded-md">
                 <img
-                  :src="`~assets/images/${card.avatar}`"
-                  :alt="card.title"
+                  src="~assets/images/avatar.webp"
+                  alt="avatar"
                   class="w-12"
                 />
                 <!-- <img
