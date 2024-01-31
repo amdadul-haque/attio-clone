@@ -17,10 +17,10 @@
         >
          It’s all about making things easier. In a few clicks, record your screen and save it as a video or an optimized GIF file.
         </p>
-        <div class="flex flex-col gap-4">
+        <div class="flex flex-col gap-4 text-text-main">
           <div class="flex gap-4 items-center">
             <div class="w-12 h-12 flex items-center justify-center rounded-md bg-gray-200">
-              <i class="fa-solid fa-video"></i>
+            <i class="fa-solid fa-video"></i>
             </div>
             <span class="font-bold"> Show your webcam in recordings</span>
           </div>

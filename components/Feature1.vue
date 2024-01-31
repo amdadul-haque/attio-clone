@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full px-4 py-20 mt-[300px] md:mt-0">
+  <div class="w-full px-4 py-20 md:mt-0">
     <div
       class="w-full  mx-auto flex flex-col items-center gap-8 xl:gap-20 md:flex-row-reverse md:justify-between"
     >
@@ -36,11 +36,11 @@
             />
           </div>
           <div>
-            <p>
+            <p class="text-text-main">
               The essential swiss army knife for screenshots, markups, and GIFs. Every Mac
               owner needs this.
             </p>
-            <p class="font-bold mt-3">Tyler Tringas, Founder at Earnest Capital</p>
+            <p class="font-bold mt-3 text-text-light">Tyler Tringas, Founder at Earnest Capital</p>
           </div>
         </div>
       </div>

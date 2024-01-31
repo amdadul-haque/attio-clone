@@ -13,15 +13,14 @@
       </p>
     </div>
     <div class="w-full grid smd:grid-cols-3 lg:grid-cols-3 gap-10">
-      <!-- Use v-for to dynamically generate cards -->
       <div v-for="card in cards" :key="card.id" class="flex gap-3 rounded-lg border p-5">
         <div>
           <div class="p-2 border rounded-md">
-            <img src="~assets/images/icons/slack.svg" alt="slack" class="w-12" />
-            <!-- <img :src="`/_nuxt/${card.icon}`" :alt="card.title" class="w-12" /> -->
+            <!-- <img src="~assets/images/icons/slack.svg" alt="slack" class="w-12" /> -->
+            <img :src="card.icon" :alt="card.title" class="w-12" />
           </div>
         </div>
-        <div>
+        <div class="text-text-main">
           <h3 class="font-semibold text-[16px]">{{ card.title }}</h3>
           <p class="mt-1 text-[14px]">{{ card.description }}</p>
         </div>

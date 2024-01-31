@@ -19,17 +19,17 @@
           save a chat history or a larger chunk of code? We got you covered!
         </p>
         <div class="flex flex-col gap-4">
-          <div class="flex gap-4 items-center">
+          <div class="flex gap-4 items-center text-text-main">
             <div class="w-12 h-12 flex items-center justify-center rounded-md bg-gray-200">
               <i class="fa-solid fa-arrow-down-long"></i>
             </div>
-            <span class="font-bold"> Capture any scrollable content</span>
+            <span class="font-bold text-text-main"> Capture any scrollable content</span>
           </div>
-          <div class="flex gap-4 items-center">
+          <div class="flex gap-4 items-center text-text-dark">
             <div class="w-12 h-12 flex items-center justify-center rounded-md bg-gray-200">
-              <i class="fa-brands fa-app-store scale-150"></i>
+              <i class="fa-brands fa-app-store scale-150 "></i>
             </div>
-            <span class="font-bold"> Works in every app</span>
+            <span class="font-bold text-text-main"> Works in every app</span>
           </div>
         </div>
       </div>

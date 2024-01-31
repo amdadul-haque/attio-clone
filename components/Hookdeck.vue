@@ -21,11 +21,6 @@
           <div class="flex gap-4 items-center rounded-lg">
             <div>
               <div class="p-2 border rounded-md">
-                <!-- <img
-                  src="~assets/images/avatar.webp"
-                  alt="avatar"
-                  class="w-12"
-                /> -->
                 <img
                   :src="card.avatar"
                   :alt="card.title"
@@ -33,7 +28,7 @@
                 />
               </div>
             </div>
-            <div>
+            <div class="text-text-main">
               <h3 class="font-semibold text-[16px]">{{ card.name }}</h3>
               <p class="mt-1 text-[14px]">{{ card.designation }}</p>
             </div>
