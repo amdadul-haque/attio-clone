@@ -1,6 +1,6 @@
 <!-- components/Navbar.vue -->
 <template>
-  <nav class="p-4 pb-0 smd:pb-4 sticky top-0 bg-white-bg border-b">
+  <nav class="p-4 pb-0 smd:pb-4 sticky top-0 bg-white-bg border-b z-[100]">
     <div class="max-w-[600px] smd:max-w-screen-xl mx-auto flex items-center justify-between">
       <div class="flex items-center gap-10">
         <a href="/" class="text-white font-bold text-xl">Your Logo</a>

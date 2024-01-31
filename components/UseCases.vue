@@ -51,7 +51,7 @@ const accordionItems = [
           class="group w-full"
         >
           <summary
-            class="w-full md:w-1/2 flex cursor-pointer list-none items-center justify-between py-4 text-lg font-medium text-secondary-900"
+            class="w-full md:w-1/2 flex cursor-pointer list-none items-center justify-between py-6 text-lg font-medium text-secondary-900 border-y"
           >
             {{ item.title }}
             <div class="text-secondary-500">
@@ -73,7 +73,7 @@ const accordionItems = [
           </summary>
           <div class="w-full flex justify-between">
             <div class="w-1/2">
-              <p class="pb-4 text-secondary-500">{{ item.content }}</p>
+              <p class="py-4 text-secondary-500">{{ item.content }}</p>
             </div>
             <div class="w-1/2 flex justify-center md:justify-end">
               <img
