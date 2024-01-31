@@ -61,7 +61,7 @@ const accordionItems = [
               <p class="pb-4 text-secondary-500">{{ item.content }}</p>
             </div>
             <div class="w-1/2 flex justify-center md:justify-end">
-              <img :src="item.image" alt="no image" class="w-auto h-[300px] md:h-full absolute top-full md:top-0 left-0 right-0 md:right-0 mx-auto" />
+              <img :src="item.image" alt="no image" class="w-auto h-[300px] md:h-full absolute top-full md:top-0 left-0 md:left-auto right-0 md:right-0 mx-auto" />
             </div>
           </div>
         </details>
