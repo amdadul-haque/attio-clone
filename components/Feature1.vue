@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full px-4 py-20">
+  <div class="w-full px-4 py-20 mt-[300px] md:mt-0">
     <div
       class="w-full  mx-auto flex flex-col items-center gap-8 xl:gap-20 md:flex-row-reverse md:justify-between"
     >

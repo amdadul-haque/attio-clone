@@ -21,16 +21,16 @@
           <div class="flex gap-4 items-center rounded-lg">
             <div>
               <div class="p-2 border rounded-md">
-                <img
+                <!-- <img
                   src="~assets/images/avatar.webp"
                   alt="avatar"
                   class="w-12"
-                />
-                <!-- <img
-                  :src="`/_nuxt/${card.avatar}`"
+                /> -->
+                <img
+                  :src="card.avatar"
                   :alt="card.title"
                   class="w-12"
-                /> -->
+                />
               </div>
             </div>
             <div>
@@ -45,12 +45,13 @@
 </template>
 
 <script setup>
+import avatar from '../assets/images/avatar.webp'
 const cards = [
   {
     id: 1,
     review:
       "Webhooks at Contra are mission-critical and Hookdeck lets us sleep at night. Retries are a lifesaver, the log of all requests makes debugging a breeze.",
-    avatar: "avatar.webp",
+    avatar: avatar,
     name: "Sara Vieira",
     designation: "Senior Engineer, Contra",
   },
@@ -58,7 +59,7 @@ const cards = [
     id: 2,
     review:
       "Webhooks at Contra are mission-critical and Hookdeck lets us sleep at night. Retries are a lifesaver, the log of all requests makes debugging a breeze.",
-    avatar: "avatar.webp",
+    avatar: avatar,
     name: "Sara Vieira",
     designation: "Senior Engineer, Contra",
   },
@@ -66,7 +67,7 @@ const cards = [
     id: 3,
     review:
       "Webhooks at Contra are mission-critical and Hookdeck lets us sleep at night. Retries are a lifesaver, the log of all requests makes debugging a breeze.",
-    avatar: "avatar.webp",
+    avatar: avatar,
     name: "Sara Vieira",
     designation: "Senior Engineer, Contra",
   },
@@ -74,7 +75,7 @@ const cards = [
     id: 4,
     review:
       "Webhooks at Contra are mission-critical and Hookdeck lets us sleep at night. Retries are a lifesaver, the log of all requests makes debugging a breeze.",
-    avatar: "avatar.webp",
+    avatar: avatar,
     name: "Sara Vieira",
     designation: "Senior Engineer, Contra",
   },
@@ -82,7 +83,7 @@ const cards = [
     id: 5,
     review:
       "Webhooks at Contra are mission-critical and Hookdeck lets us sleep at night. Retries are a lifesaver, the log of all requests makes debugging a breeze.",
-    avatar: "avatar.webp",
+    avatar: avatar,
     name: "Sara Vieira",
     designation: "Senior Engineer, Contra",
   },
@@ -90,7 +91,7 @@ const cards = [
     id: 6,
     review:
       "Webhooks at Contra are mission-critical and Hookdeck lets us sleep at night. Retries are a lifesaver, the log of all requests makes debugging a breeze.",
-    avatar: "avatar.webp",
+    avatar: avatar,
     name: "Sara Vieira",
     designation: "Senior Engineer, Contra",
   },
@@ -98,7 +99,7 @@ const cards = [
     id: 7,
     review:
       "Webhooks at Contra are mission-critical and Hookdeck lets us sleep at night. Retries are a lifesaver, the log of all requests makes debugging a breeze.",
-    avatar: "avatar.webp",
+    avatar: avatar,
     name: "Sara Vieira",
     designation: "Senior Engineer, Contra",
   },
@@ -106,7 +107,7 @@ const cards = [
     id: 8,
     review:
       "Webhooks at Contra are mission-critical and Hookdeck lets us sleep at night. Retries are a lifesaver, the log of all requests makes debugging a breeze.",
-    avatar: "avatar.webp",
+    avatar: avatar,
     name: "Sara Vieira",
     designation: "Senior Engineer, Contra",
   },
@@ -114,7 +115,7 @@ const cards = [
     id: 9,
     review:
       "Webhooks at Contra are mission-critical and Hookdeck lets us sleep at night. Retries are a lifesaver, the log of all requests makes debugging a breeze.",
-    avatar: "avatar.webp",
+    avatar: avatar,
     name: "Sara Vieira",
     designation: "Senior Engineer, Contra",
   },

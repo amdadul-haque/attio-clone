@@ -32,42 +32,43 @@
 
 <script setup>
 // Define an array of data for the cards
+import slack from '../assets/images/icons/slack.svg'
 const cards = [
   {
     id: 1,
     title: 'Slack',
     description: 'Send notifications to your team when a new lead is created.',
-    icon: "assets/images/icons/slack.svg",
+    icon: slack,
   },
   {
     id: 2,
     title: 'Slack',
     description: 'Send notifications to your team when a new lead is created.',
-    icon: "assets/images/icons/slack.svg",
+    icon: slack,
   },
   {
     id: 3,
     title: 'Slack',
     description: 'Send notifications to your team when a new lead is created.',
-    icon: "assets/images/icons/slack.svg",
+    icon: slack,
   },
   {
     id: 4,
     title: 'Slack',
     description: 'Send notifications to your team when a new lead is created.',
-    icon: "assets/images/icons/slack.svg",
+    icon: slack,
   },
   {
     id: 5,
     title: 'Slack',
     description: 'Send notifications to your team when a new lead is created.',
-    icon: "assets/images/icons/slack.svg",
+    icon: slack,
   },
   {
     id: 6,
     title: 'Slack',
     description: 'Send notifications to your team when a new lead is created.',
-    icon: "assets/images/icons/slack.svg",
+    icon: slack,
   },
 ];
 </script>
