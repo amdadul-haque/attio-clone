@@ -30,13 +30,28 @@ const accordionItems = [
   <div class="w-full">
     <div class="w-full">
       <div class="w-full max-w-screen-xl relative">
+        <div
+          class="w-full flex flex-col md:flex-row gap-5 justify-between pb-10 md:pb-20"
+        >
+          <h1
+            class="text-text-dark text-[32px] md:text-[48px] font-semibold leading-tight max-w-[550px]"
+          >
+            Automate your way to
+            <span class="text-text-light">GTM success.</span> 
+          </h1>
+          <p class="max-w-[400px] text-[20px] text-text-dark font-medium">
+            No matter your GTM motion or strategy, Attio is the perfect way to drive it forward.
+          </p>
+        </div>
+      </div>
+      <div class="w-full max-w-screen-xl relative">
         <details
           v-for="(item, index) in accordionItems"
           :key="index"
           class="group w-full"
         >
           <summary
-            class="w-full md:w-1/2 flex cursor-pointer list-none items-center justify-between py-4 text-lg font-medium text-secondary-900 "
+            class="w-full md:w-1/2 flex cursor-pointer list-none items-center justify-between py-4 text-lg font-medium text-secondary-900"
           >
             {{ item.title }}
             <div class="text-secondary-500">
@@ -61,7 +76,11 @@ const accordionItems = [
               <p class="pb-4 text-secondary-500">{{ item.content }}</p>
             </div>
             <div class="w-1/2 flex justify-center md:justify-end">
-              <img :src="item.image" alt="no image" class="w-auto h-[300px] md:h-full absolute top-full md:top-0 left-0 md:left-auto right-0 md:right-0 mx-auto" />
+              <img
+                :src="item.image"
+                alt="no image"
+                class="w-auto h-[300px] md:h-full absolute top-full md:top-0 left-0 md:left-auto right-0 md:right-0 mx-auto"
+              />
             </div>
           </div>
         </details>
